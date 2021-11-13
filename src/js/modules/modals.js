@@ -44,8 +44,8 @@ const modals = () => {
   bindModal('.popup_engineer_btn', '.popup_engineer', '.popup_engineer .popup_close');
   //открытие модального окна при клике на ссылку
   bindModal('.phone_link', '.popup', '.popup .popup_close');
-  //запускает модальное окно после 3 сек
-  showModalByTime('.popup', 3000);
+  //запускает модальное окно после 6 сек
+  // showModalByTime('.popup', 6000);
 };
 
 export default modals;
